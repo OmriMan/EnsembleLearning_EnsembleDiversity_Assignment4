@@ -1,4 +1,18 @@
 # -*- coding: utf-8 -*-
+import numpy as np  
+import pandas as pd  
+
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import ExtraTreesClassifier
+from matplotlib import pyplot as plt  
+from sklearn.tree import plot_tree 
+from sklearn.model_selection import train_test_split
+from sklearn.model_selection import RandomizedSearchCV
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import precision_score
+
+import random
+from tabulate import tabulate
 """
 Kohavi Wolpert
 """
